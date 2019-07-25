@@ -1,0 +1,28 @@
+{
+  "name": "performon-udp-server",
+  "description": "UDP Server for the Performon computer performance monitor.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "udp",
+    "performon",
+    "axios",
+    "rabbitmq",
+    "performance",
+    "monitor"
+  ],
+  "author": "Brian Thomas Alexander",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianalexander/performon-udp-server.git/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0"
+  }
+}
